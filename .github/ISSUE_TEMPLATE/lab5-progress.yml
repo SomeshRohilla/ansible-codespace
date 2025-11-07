@@ -1,0 +1,36 @@
+name: "Lab 5 Progress Log"
+description: "Log your reflections for University of Suffolk DevOps Lab 5: CI/CD with Ansible"
+title: "Lab 5 – CI/CD with Ansible (Progress Log)"
+labels: ["Lab", "Ansible", "DevOps"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🧩 University of Suffolk – MSc in Advanced Computing
+        ### Lab 5: CI/CD with Ansible – Progress Log
+
+        Please answer the following questions to reflect on your lab progress.
+  - type: textarea
+    id: worked-well
+    attributes:
+      label: ✅ What worked well
+      description: Describe what parts of the lab worked successfully.
+      placeholder: e.g., Installed Ansible and ran the hello.yml playbook successfully.
+  - type: textarea
+    id: new-or-challenging
+    attributes:
+      label: 💡 What was new or challenging
+      description: What new concepts or difficulties did you face?
+      placeholder: e.g., YAML indentation, understanding Control Node vs Managed Node.
+  - type: textarea
+    id: didnt-work
+    attributes:
+      label: ⚠️ What didn’t work as expected
+      description: Mention any commands or steps that didn’t go as planned.
+      placeholder: e.g., Permission error during installation.
+  - type: textarea
+    id: lessons
+    attributes:
+      label: 🧠 Lessons Learned
+      description: Key takeaways from this lab.
+      placeholder: e.g., How Ansible playbooks make automation simple.
